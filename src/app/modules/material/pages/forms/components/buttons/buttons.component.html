@@ -1,0 +1,60 @@
+<div>
+  <div class="mat-headline">Buttons</div>
+  <button mat-button>Click me!</button>
+  <button mat-raised-button>Click me!</button>
+  <button mat-flat-button>Click me!</button>
+  <button mat-stroked-button>Click me!</button>
+</div>
+
+<div>
+  <div class="mat-headline">Icons</div>
+  <button mat-icon-button>Icon</button>
+  <button mat-fab>Fab</button>
+  <button mat-mini-fab>Mini</button>
+</div>
+
+<div>
+  <button color="primary" mat-button>Click me!</button>
+  <button color="accent" mat-button>Click me!</button>
+  <button color="warn" disableRipple mat-button>Click me!</button>
+</div>
+
+<div>
+  <div class="mat-headline">Button toggle</div>
+  <mat-button-toggle #toggleButton checke disableRipple
+    >Toggle</mat-button-toggle
+  >
+  {{ toggleButton.checked }}
+</div>
+
+<div>
+  <mat-button-toggle-group #toggleGroup="matButtonToggleGroup" multiple>
+    <mat-button-toggle value="angular">Angular</mat-button-toggle>
+    <mat-button-toggle value="vue">Vue</mat-button-toggle>
+    <mat-button-toggle value="react">React</mat-button-toggle>
+  </mat-button-toggle-group>
+  {{ toggleGroup.value }}
+</div>
+
+<div>
+  <mat-icon color="primary">grade</mat-icon>
+</div>
+
+<div>
+  <span
+    matBadge="5"
+    matBadgeColor="accent"
+    matBadgeHidden="true"
+    matBadgeOverlap="false"
+    >Notification</span
+  >
+</div>
+<div>
+  <span
+    matBadge="5"
+    matBadgeColor="accent"
+    matBadgeHidden="false"
+    matBadgeOverlap="false"
+    >Notification</span
+  >
+</div>
