@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "donjayamanne.githistory",
+    "pkief.material-icon-theme",
+    "mrmlnc.vscode-scss",
+    "Angular.ng-template",
+    "EditorConfig.EditorConfig",
+    "eg2.vscode-npm-script",
+    "cyrilletuzi.angular-schematics",
+    "rbbit.typescript-hero"
+  ]
+}
